@@ -12,11 +12,14 @@
     "test:watch": "nwb test-react --server"
   },
   "dependencies": {
+    "bootstrap": "4.0.0-alpha.6",
     "react": "15.5.4",
     "react-dom": "15.5.4"
   },
   "devDependencies": {
-    "nwb": "0.16.x"
+    "babel-plugin-react-html-attrs": "2.0.0",
+    "nwb": "0.16.x",
+    "nwb-sass": "0.8.0"
   },
   "author": "",
   "license": "MIT",
