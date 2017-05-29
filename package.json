@@ -13,8 +13,10 @@
   },
   "dependencies": {
     "bootstrap": "4.0.0-alpha.6",
+    "prop-types": "15.5.10",
     "react": "15.5.4",
-    "react-dom": "15.5.4"
+    "react-dom": "15.5.4",
+    "react-fa": "4.2.0"
   },
   "devDependencies": {
     "babel-plugin-react-html-attrs": "2.0.0",
