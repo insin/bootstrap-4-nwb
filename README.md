@@ -1,3 +1,3 @@
 # bootstrap-4-nwb
 
-Describe bootstrap-4-nwb here.
+Example app from [Using Bootstrap 4 from source with React and nwb](https://medium.com/@jbscript/f26caf395952).
