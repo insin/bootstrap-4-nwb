@@ -5,26 +5,28 @@ import React from 'react'
 export default class Blog extends React.Component {
   render() {
     return <div class="blog">
-      <div class="blog-masthead">
-        <div class="container">
-          <nav class="nav blog-nav">
-            <a class="nav-link active" href="#">Home</a>
-            <a class="nav-link" href="#">New features</a>
-            <a class="nav-link" href="#">Press</a>
-            <a class="nav-link" href="#">New hires</a>
-            <a class="nav-link" href="#">About</a>
-          </nav>
+      <header>
+        <div class="blog-masthead">
+          <div class="container">
+            <nav class="nav">
+              <a class="nav-link active" href="#">Home</a>
+              <a class="nav-link" href="#">New features</a>
+              <a class="nav-link" href="#">Press</a>
+              <a class="nav-link" href="#">New hires</a>
+              <a class="nav-link" href="#">About</a>
+            </nav>
+          </div>
         </div>
-      </div>
 
-      <div class="blog-header">
-        <div class="container">
-          <h1 class="blog-title">The Bootstrap Blog</h1>
-          <p class="lead blog-description">An example blog template built with Bootstrap.</p>
+        <div class="blog-header">
+          <div class="container">
+            <h1 class="blog-title">The Bootstrap Blog</h1>
+            <p class="lead blog-description">An example blog template built with Bootstrap.</p>
+          </div>
         </div>
-      </div>
+      </header>
 
-      <div class="container">
+      <main role="main" class="container">
 
         <div class="row">
 
@@ -61,7 +63,7 @@ export default class Blog extends React.Component {
                 <li>Maecenas sed diam eget risus varius blandit sit amet non magna.</li>
               </ol>
               <p>Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.</p>
-            </div>
+            </div>{/* /.blog-post */}
 
             <div class="blog-post">
               <h2 class="blog-post-title">Another blog post</h2>
@@ -73,7 +75,7 @@ export default class Blog extends React.Component {
               </blockquote>
               <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
               <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
-            </div>
+            </div>{/* /.blog-post */}
 
             <div class="blog-post">
               <h2 class="blog-post-title">New feature</h2>
@@ -87,16 +89,16 @@ export default class Blog extends React.Component {
               </ul>
               <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
               <p>Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.</p>
-            </div>
+            </div>{/* /.blog-post */}
 
             <nav class="blog-pagination">
               <a class="btn btn-outline-primary" href="#">Older</a>
               <a class="btn btn-outline-secondary disabled" href="#">Newer</a>
             </nav>
 
-          </div>
+          </div>{/* /.blog-main */}
 
-          <div class="col-sm-3 offset-sm-1 blog-sidebar">
+          <aside class="col-sm-3 ml-sm-auto blog-sidebar">
             <div class="sidebar-module sidebar-module-inset">
               <h4>About</h4>
               <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
@@ -126,19 +128,18 @@ export default class Blog extends React.Component {
                 <li><a href="#">Facebook</a></li>
               </ol>
             </div>
-          </div>
+          </aside>{/* /.blog-sidebar */}
 
-        </div>
+        </div>{/* /.row */}
 
-      </div>
+      </main>{/* /.container */}
 
       <footer class="blog-footer">
-        <p>Blog template built for <a href="https://getbootstrap.com">Bootstrap</a> by <a href="https://twitter.com/mdo">@mdo</a>.</p>
+        <p>Blog template built for <a href="https://getbootstrap.com/">Bootstrap</a> by <a href="https://twitter.com/mdo">@mdo</a>.</p>
         <p>
           <a href="#">Back to top</a>
         </p>
       </footer>
-
     </div>
   }
 }
