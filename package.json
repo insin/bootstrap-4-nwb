@@ -12,16 +12,16 @@
     "test:watch": "nwb test-react --server"
   },
   "dependencies": {
-    "bootstrap": "4.0.0-beta.2",
-    "prop-types": "15.6.0",
-    "react": "16.1.0",
-    "react-dom": "16.1.0",
-    "react-fa": "5.0.0"
+    "bootstrap": "4.x",
+    "prop-types": "15.x",
+    "react": "16.x",
+    "react-dom": "16.x",
+    "react-fa": "5.x"
   },
   "devDependencies": {
-    "babel-plugin-react-html-attrs": "2.0.0",
-    "nwb": "0.19.x",
-    "nwb-sass": "0.8.2"
+    "babel-plugin-react-html-attrs": "2.x",
+    "nwb": "0.21.x",
+    "nwb-sass": "0.8.x"
   },
   "author": "",
   "license": "MIT",

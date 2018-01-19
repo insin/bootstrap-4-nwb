@@ -4,7 +4,7 @@ import Icon from 'react-fa'
 
 export default class LoadingButton extends React.Component {
   static propTypes = {
-    loading: t.bool.isRequired,
+    loading: t.bool,
     bsStyle: t.string,
     type: t.string,
   }
